@@ -1,12 +1,12 @@
-package LinkedList5;
+package LinkedList6;
 
 public class LinkedListNode{
-	public LinkedListNode next = null;
-	public int data;
+	LinkedListNode next = null;
+	int data;
 	public LinkedListNode(int d) {
 		data = d;
 	}
-	public void appendToTail(int d) {
+	void appendToTail(int d) {
 		LinkedListNode end = new LinkedListNode(d);
 		LinkedListNode n = this;
 		while(n.next != null) {
