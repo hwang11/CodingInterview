@@ -1,3 +1,4 @@
+package LinkedList2;
 import java.util.*;
 public class DeleteNode {
 	public static class LinkedListNode{
