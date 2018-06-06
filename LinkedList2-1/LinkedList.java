@@ -1,23 +1,6 @@
 import java.util.*;
 
 public class LinkedList<Element> {
-	public static class LinkedListNode{
-		LinkedListNode next = null;
-		int data;
-		public LinkedListNode(int d) {
-			data = d;
-		}
-		void appendToTail(int d) {
-			LinkedListNode end = new LinkedListNode(d);
-			LinkedListNode n = this;
-			while(n.next != null) {
-				n = n.next;
-			}
-			n.next = end;
-				
-			
-		}
-	}
 	void DeleteDups(LinkedListNode n) {
 		HashSet set = new HashSet();
 		LinkedListNode previous = null;
