@@ -7,7 +7,6 @@ public class AddLists {
 	LinkedListNode addLists(LinkedListNode l1,LinkedListNode l2) {
 		int len1 = length(l1);
 		int len2 = length(l2);
-		
 		if(len1 < len2) {
 			l1 = padList(l1, len2 - len1);
 		}
