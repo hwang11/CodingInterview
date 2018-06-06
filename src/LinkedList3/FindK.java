@@ -1,6 +1,6 @@
 package LinkedList3;
 import java.util.*;
-// #2.2 뒤에서 k번째원소 구하기
+// #2.2 뒤에서 k번째원소 구하기.
 public class FindK {
 	public static class LinkedListNode{
 		LinkedListNode next = null;
