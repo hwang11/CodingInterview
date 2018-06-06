@@ -1,7 +1,6 @@
 package LinkedList6;
 import LinkedList6.LinkedListNode;
 import java.util.*;
-
 public class ReverseAndClone {
 	boolean isPalindrome(LinkedListNode head) {
 		LinkedListNode reversed = reverseAndClone(head);
