@@ -1,5 +1,4 @@
 package LinkedList1;
-
 public class LinkedListNode{
 	public LinkedListNode next = null;
 	public int data;
