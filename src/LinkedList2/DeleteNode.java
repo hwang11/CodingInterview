@@ -25,7 +25,6 @@ public class DeleteNode {
 		n.next = next.next;
 		return true;
 	}
-	
 	public static void main(String args[]) {
 		DeleteNode d = new DeleteNode();
 		LinkedListNode n = new LinkedListNode(30);
